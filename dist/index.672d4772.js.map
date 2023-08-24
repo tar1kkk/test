@@ -1,1 +1,1 @@
-{"mappings":"AACA,MAAM,MAAM","sources":["script.js"],"sourcesContent":["\nconst url = '/test.json';\n\n\n\n\n"],"names":[],"version":3,"file":"index.672d4772.js.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AACA,MAAM,MAAM;AAKZ,QAAQ,IAAI","sources":["script.js"],"sourcesContent":["\nconst url = '/test.json';\n\n\n\n\nconsole.log(123)"],"names":[],"version":3,"file":"index.672d4772.js.map","sourceRoot":"/__parcel_source_root/"}
