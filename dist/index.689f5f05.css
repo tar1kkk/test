@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --heading-100: Poppins;
+  --heading-400-size: 18px;
+  --paragraph-100-regular-size: 16px;
+  --paragraph-200-medium-size: 14px;
+  --heading-200-size: 32px;
+  --paragraph-300-regular-size: 12px;
+  --heading-300-size: 24px;
+  --heading-100-size: 48px;
+  --main-white: #fff;
+  --color-whitesmoke: #f9f9f9;
+  --theme-primary: #7b61ff;
+  --theme-body: #161414;
+  --theme-body-muted: #979797;
+  --theme-primary-muted: #f6f4ff;
+  --theme-red: red;
+  --gap-45xl: 64px;
+  --gap-xl: 20px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-13xl: 32px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-3xs: 10px;
+  --gap-11xs: 2px;
+  --padding-101xl: 120px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
+  --padding-45xl: 64px;
+  --padding-13xl: 32px;
+  --padding-lg: 18px;
+  --br-xs: 12px;
+  --br-5xl: 24px;
+  --br-45xl: 64px;
+  --br-35xl: 54px;
+  --br-980xl: 999px;
+}
+
+/*# sourceMappingURL=index.689f5f05.css.map */
