@@ -6,7 +6,7 @@ const iti = window.intlTelInput(phoneInput, {});
 const sendMessageButton = document.getElementById('sendMessageButton');
 
 
-const accessToken = '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';
+const accessToken = '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';
 const owner = 'tar1kkk';
 const repo = 'test';
 const filePath = 'test.json';
@@ -25,6 +25,7 @@ async function fetchData() {
         const data = await response.json();
         const jsonContent = atob(data.content);
         jsonData = JSON.parse(jsonContent);
+        console.log(jsonData);
     } catch (error) {
         console.error('Error fetching JSON:', error);
     }
@@ -40,7 +41,6 @@ function dataFromBack(jsonData) {
     lastNameInput.value = jsonData.lastName;
     emailInput.value = jsonData.email;
     phoneInput.value = formattedPhoneNumber(jsonData);
-    getMessage(jsonData);
 }
 
 function formattedPhoneNumber(jsonData) {
