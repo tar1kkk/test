@@ -6,7 +6,7 @@ const iti = window.intlTelInput(phoneInput, {});
 const sendMessageButton = document.getElementById('sendMessageButton');
 
 
-const accessToken = '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';
+const accessToken = '';
 const owner = 'tar1kkk';
 const repo = 'test';
 const filePath = 'test.json';
@@ -25,7 +25,6 @@ async function fetchData() {
         const data = await response.json();
         const jsonContent = atob(data.content);
         jsonData = JSON.parse(jsonContent);
-        console.log(jsonData);
     } catch (error) {
         console.error('Error fetching JSON:', error);
     }
@@ -76,4 +75,12 @@ sendMessageButton.addEventListener('click', () => {
 
     })
 
+});
+
+
+const burgerIcon = document.getElementById('burger-icon');
+const menu = document.getElementById('menu');
+
+burgerIcon.addEventListener('click', () => {
+    menu.classList.toggle('active');
 });

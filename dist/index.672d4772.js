@@ -4,7 +4,7 @@ const emailInput = document.querySelector("#emailInput");
 const phoneInput = document.querySelector("#phoneInput");
 const iti = window.intlTelInput(phoneInput, {});
 const sendMessageButton = document.getElementById("sendMessageButton");
-const accessToken = "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";
+const accessToken = "";
 const owner = "tar1kkk";
 const repo = "test";
 const filePath = "test.json";
@@ -20,7 +20,6 @@ async function fetchData() {
         const data = await response.json();
         const jsonContent = atob(data.content);
         jsonData = JSON.parse(jsonContent);
-        console.log(jsonData);
     } catch (error) {
         console.error("Error fetching JSON:", error);
     }
@@ -60,6 +59,11 @@ sendMessageButton.addEventListener("click", ()=>{
             console.error("Error sending message:", error);
         });
     });
+});
+const burgerIcon = document.getElementById("burger-icon");
+const menu = document.getElementById("menu");
+burgerIcon.addEventListener("click", ()=>{
+    menu.classList.toggle("active");
 });
 
 //# sourceMappingURL=index.672d4772.js.map
