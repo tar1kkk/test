@@ -6,7 +6,7 @@ const iti = window.intlTelInput(phoneInput, {});
 const sendMessageButton = document.getElementById('sendMessageButton');
 
 
-const accessToken = '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';
+const accessToken = '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';
 const owner = 'tar1kkk';
 const repo = 'test';
 const filePath = 'test.json';
