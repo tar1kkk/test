@@ -1,73 +1,72 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  color: #555;
-  margin: 20px;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+    color: #555;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
 .iti__hide {
-  display: none;
+    display: none;
 }
 
 pre {
-  display: inline-block;
-  margin: 0 !important;
+    display: inline-block;
+    margin: 0 !important;
 }
 
 .token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string, .token.variable {
-  background: none;
+    background: none;
 }
 
 input, button {
-  color: inherit;
-  border-radius: 2px;
-  height: 35px;
-  margin: 0;
-  padding: 6px 12px;
-  font-family: inherit;
-  font-size: 100%;
+    color: inherit;
+    border-radius: 2px;
+    height: 35px;
+    margin: 0;
+    padding: 6px 12px;
+    font-family: inherit;
+    font-size: 100%;
 }
 
 input[disabled], button[disabled] {
-  background-color: #eee;
+    background-color: #eee;
 }
 
 input, select {
-  border: 1px solid #ccc;
-  width: 250px;
+    border: 1px solid #ccc;
+    width: 250px;
 }
 
 ::-webkit-input-placeholder {
-  color: #bbb;
+    color: #bbb;
 }
 
 ::-moz-placeholder {
-  color: #bbb;
-  opacity: 1;
+    color: #bbb;
+    opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #bbb;
+    color: #bbb;
 }
 
 button {
-  color: #fff;
-  background-color: #428bca;
-  border: 1px solid #357ebd;
+    color: #fff;
+    background-color: #428bca;
+    border: 1px solid #357ebd;
 }
 
 button:hover {
-  cursor: pointer;
-  background-color: #3276b1;
-  border-color: #285e8e;
+    cursor: pointer;
+    background-color: #3276b1;
+    border-color: #285e8e;
 }
 
 #result {
-  margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=demo.b68da79d.css.map */
